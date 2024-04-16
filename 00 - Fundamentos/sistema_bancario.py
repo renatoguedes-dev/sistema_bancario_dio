@@ -29,7 +29,6 @@ while True:
 
     elif opcao == "s":
         valor_saque = float(input("Valor que deseja sacar: "))
-
         
         if valor_saque > saldo:
             print("\nSaque não realizado. Saldo insuficiente.")

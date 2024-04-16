@@ -1,5 +1,3 @@
-
-
 def menu():
     menu = f"""
     {" MENU ".center(41, "=")}
@@ -240,6 +238,5 @@ def main():
             
             elif opcao_validada == 7:
                 break
-
         
 main()
